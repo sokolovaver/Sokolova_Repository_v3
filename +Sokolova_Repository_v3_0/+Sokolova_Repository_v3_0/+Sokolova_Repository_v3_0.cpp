@@ -15,8 +15,10 @@ double inputy() {
 }
 
 double inputz() {
-
-	return 0;
+	double z;
+	cout << "Введите вещественное число z: ";
+	cin >> z;
+	return z;
 }
 
 double Summ(double x, double y, double z) {
