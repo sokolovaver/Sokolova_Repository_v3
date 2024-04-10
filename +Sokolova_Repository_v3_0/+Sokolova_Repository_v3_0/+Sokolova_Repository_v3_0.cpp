@@ -1,4 +1,8 @@
 ﻿#include <iostream>
+<<<<<<< HEAD
+
+=======
+>>>>>>> c8dc3adc7042166e58d66ddb5d8073a27e896ecf
 #include <cmath>
 #include <string>
 using namespace std;
@@ -31,6 +35,16 @@ double Summ(double x, double y, double z) {
 
 <<<<<<< HEAD
 double Summ(double x, double y, double z) {
+	
+}
+
+int Average(double x, double y, double z) {
+double func = 0, integer = 0;
+	func = modf(cbrt(abs(x)*abs(y)*abs(z)), &integer);
+	cout << endl << "Дробная часть среднего геометрического модулей 3 чисел равна = " << func << endl << endl;
+=======
+<<<<<<< HEAD
+double Summ(double x, double y, double z) {
 	double func = 0, integer = 0;
 	func = modf((x + y + z), &integer);
 	cout << endl << "Целая часть суммы вещественных чисел равна = " << integer << endl << endl;
@@ -42,6 +56,7 @@ int Average(double x, double y, double z) {
 double Average(double x, double y, double z) {
 >>>>>>> 75f5b90d3b5d15a91a23ef9813b215e19a9563e4
 
+>>>>>>> c8dc3adc7042166e58d66ddb5d8073a27e896ecf
 	return 0;
 }
 
@@ -72,6 +87,9 @@ int main()
 			n = stof(s);
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c8dc3adc7042166e58d66ddb5d8073a27e896ecf
 		switch (n)
 		{
 		case 1:
@@ -110,6 +128,13 @@ int main()
 			break;
 		}
 		default:
+<<<<<<< HEAD
+			break;
+		}
+
+	}
+	return 0;
+=======
 				break;
 		}
 	
@@ -163,4 +188,5 @@ int main()
 		break;
 	}
 >>>>>>> 75f5b90d3b5d15a91a23ef9813b215e19a9563e4
+>>>>>>> c8dc3adc7042166e58d66ddb5d8073a27e896ecf
 }
