@@ -3,8 +3,10 @@
 using namespace std;
 
 double inputx() {
-
-	return 0;
+	double x;
+	cout << "Введите вещественное число x: ";
+	cin >> x;
+	return x;
 }
 
 double inputy() {
@@ -19,12 +21,12 @@ double inputz() {
 	return z;
 }
 
-int Summ(double x, double y, double z) {
+double Summ(double x, double y, double z) {
 
 	return 0;
 }
 
-int Average(double x, double y, double z) {
+double Average(double x, double y, double z) {
 
 	return 0;
 }
