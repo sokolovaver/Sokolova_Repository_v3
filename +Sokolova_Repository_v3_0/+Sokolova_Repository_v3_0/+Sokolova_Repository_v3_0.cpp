@@ -10,8 +10,10 @@ double inputx() {
 }
 
 double inputy() {
-
-	return 0;
+		double y;
+		cout << "Введите вещественное число y: ";
+		cin >> y;
+		return y;
 }
 
 double inputz() {
