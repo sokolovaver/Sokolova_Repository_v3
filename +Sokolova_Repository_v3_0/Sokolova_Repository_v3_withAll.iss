@@ -13,7 +13,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{8CEF487E-028C-4F57-982C-B7571A80238C}
+AppId={{3012DAE8-CE3F-4D31-B89D-F3E0D7E0DFEB}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -46,19 +46,11 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\x64\Debug\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\x64\Debug\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\.vs\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\html\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.exe.recipe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.ilk"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.log"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.obj"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\x64\Debug\vc143.idb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\x64\Debug\vc143.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.cpp"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.vcxproj"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.vcxproj.filters"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.vcxproj.user"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\description.h"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\latex\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\socol\OneDrive\Документы\lab\Sokolova_Rep_v3\+Sokolova_Repository_v3_0\x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
