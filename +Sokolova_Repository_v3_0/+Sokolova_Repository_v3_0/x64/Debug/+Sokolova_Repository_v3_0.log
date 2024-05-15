@@ -1,13 +1,1 @@
-﻿  +Sokolova_Repository_v3_0.cpp
-<<<<<<< HEAD
-C:\Users\socol\OneDrive\Документы\lab\Sokolova_Repository_v3\Sokolova_Repository_v3_5\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.cpp(57,12): warning C4244: =: преобразование "float" в "int", возможна потеря данных
-C:\Users\socol\OneDrive\Документы\lab\Sokolova_Repository_v3\Sokolova_Repository_v3_5\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.cpp(24): error C4716: Summ: должна возвращать значение
-=======
-<<<<<<< HEAD
-C:\Users\socol\OneDrive\Документы\lab\Sokolova_Repository_v3\Sokolova_Repository_v3_4\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0\+Sokolova_Repository_v3_0.cpp(63,12): warning C4244: =: преобразование "float" в "int", возможна потеря данных
-  +Sokolova_Repository_v3_0.vcxproj -> C:\Users\socol\OneDrive\Документы\lab\Sokolova_Repository_v3\Sokolova_Repository_v3_4\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.exe
-=======
-  LINK : не найден или не выполнена сборка C:\Users\socol\OneDrive\Документы\lab\Sokolova_Repository_v3\Sokolova_Repository_v3_1\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.exe при последней инкрементной компоновке; выполняется полная компоновка
-  +Sokolova_Repository_v3_0.vcxproj -> C:\Users\socol\OneDrive\Документы\lab\Sokolova_Repository_v3\Sokolova_Repository_v3_1\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.exe
->>>>>>> 75f5b90d3b5d15a91a23ef9813b215e19a9563e4
->>>>>>> c8dc3adc7042166e58d66ddb5d8073a27e896ecf
+﻿  +Sokolova_Repository_v3_0.vcxproj -> C:\Users\socol\OneDrive\Документы\lab\Sokolova_Testing_VS\+Sokolova_Repository_v3_0\x64\Debug\+Sokolova_Repository_v3_0.exe
